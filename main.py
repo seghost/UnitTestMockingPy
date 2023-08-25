@@ -25,7 +25,7 @@ class Test2 (unittest.TestCase):
         expect = 4
         got = 5
         self.assertEqual(expect, got, f"Expected {expect}, but got {got}")
-        print("got expected results = 4")
+        print(f"got expected results = {expect}")
 
 
 unittest.main()
